@@ -1,0 +1,14 @@
+header{
+    background-color: #48793c;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+}
+nav{
+    background-color: blue;
+    width: 20%;
+    
+}

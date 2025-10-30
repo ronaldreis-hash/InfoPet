@@ -1,14 +1,50 @@
+body{
+    font-size: 24px;
+}
 header{
-    background-color: #48793c;
+    background-color: #23532a;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'bungee', cursive;
     padding: 1vh;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-size: 80%;
 }
+i{
+    margin-right: 10px;
+    font-size: 150%;
+}
 nav{
-    background-color: blue;
-    width: 20%;
-    
+    background-color: #1a4520;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:0;
+    margin: 0;
+}
+button{
+    padding: 0px;
+    margin: 5px;
+    font-size: 0.7rem;
+    background-color:#1a4520;
+    color: white;
+    border:none;
+    margin: 0;
+
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #1a4520;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover{
+    background-color:#4de264;
+    color: #1a4520;
 }

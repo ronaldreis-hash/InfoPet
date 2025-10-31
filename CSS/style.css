@@ -48,3 +48,10 @@ button:hover{
     background-color:#4de264;
     color: #1a4520;
 }
+.conteudo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'bungee', regular;
+
+}
